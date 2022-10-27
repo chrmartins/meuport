@@ -97,12 +97,12 @@ export const Gallery = forwardRef<GalleryRefType, Props>(({
       justifyContent="center"
       alignItems="center"
       position="relative"
-      minWidth="450"
+      minWidth="400"
     >
       <PreviousButton />
 
       {images.slice(start, end).map((image, index) => (
-        <Box key={image.src} width="60px" height="60px" marginRight={4}>
+        <Box key={image.src} width="40px" height="40px" marginRight={4}>
           <Image
             src={image.src}
             alt={`Gallery Image ${index + 1}`}
