@@ -97,6 +97,7 @@ export const Gallery = forwardRef<GalleryRefType, Props>(({
       justifyContent="center"
       alignItems="center"
       position="relative"
+      minWidth="450"
     >
       <PreviousButton />
 

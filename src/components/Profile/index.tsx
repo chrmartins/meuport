@@ -2,7 +2,10 @@ import { Flex, Image, Text } from "@chakra-ui/react"
 
 export const Profile = () => {
   return (
-    <Flex>
+    <Flex 
+      flexDirection="column"
+      alignItems="center" 
+    >
       <Flex alignItems="center">
         <Image
           src="https://github.com/chrmartins.png"
@@ -16,18 +19,19 @@ export const Profile = () => {
         flexDirection="column"
         marginLeft={4}
         justifyContent="center"
+        alignItems="center"
       >
         <Text
           fontSize="4xl"
           fontWeight="semibold"
-          color="#60a5fa"
+          color="#1c2541"
         >
           Christian Martins
         </Text>
         <Text
           fontSize="lg"
           fontWeight="medium"
-          color="#717171"
+          color="#4fb2d4"
         >
           Desenvolvedor Front-end
         </Text>
